@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Student-Colab</title>
+    <style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+   background-image: url("Images/Home-background.png");
+}
+
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    overflow-x: auto;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+    background-color: #eeeeee;
+}
+
+.nav__link--active {
+    color: #009578;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+*{
+            margin: 0px;
+            padding: 0px;
+            /* background-color: black; */
+            /* background-image: url("Images/Home-background.png"); */
+
+        }
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+   background-image: url("../Images/Home-background.png");
+
+}
+
+
+.demo{
+  background-color: red;
+  width: 900px;
+  height: 550px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.neumor{
+  width: 300px;
+  background-color: red;
+  height: 500px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  30px 30px 60px #989898,
+             -30px -30px 60px #ffffff;
+}
+.neuo{
+  background-color: red;
+ 
+}
+ /* The sidebar menu */
+ .sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+} 
+.nav_neuo{
+  border-color: red;
+}
+    </style>
+  </head>
+  <body>
+    <!-- <h1 style="text-align: center;">Student Colab</h1> -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <nav class="nav">
+    <a href="Club_Home.html" class="nav__link">
+        <!-- <i class="material-icons nav__icon">dashboard</i> -->
+        <span class="nav__text">HOME</span>
+    </a>
+    <a href="Club_Meets.html" class="nav__link">
+        <!-- <i class="material-icons nav__icon">person</i> -->
+        <span class="nav__text">MEETS</span>
+    </a>
+    <a href="Club_Chats.html" class="nav__link">
+        <!-- <i class="material-icons nav__icon">devices</i> -->
+        <span class="nav__text">CHATS</span>
+    </a>
+    <a href="Club_Events.html" class="nav__link">
+        <!-- <i class="material-icons nav__icon">lock</i> -->
+        <span class="nav__text">EVENTS</span>
+    </a>
+    <a href="#" class="nav__link">
+        <!-- <i class="material-icons nav__icon">settings</i> -->
+        <span class="nav__text"><b>TEAM </b></span> 
+    </a>
+    </nav>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <div id="mySidebar" class="sidebar">
+    
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <h5 style="color:blue; margin-left: 30px; ">Student_Name </h5>
+      <a href="#">Club 1</a>
+      <a href="#">Club 2</a>
+      <a href="#">Club 3</a>
+      <a href="#">Club 4 </a>
+      <a href="#">Find Others</a>
+    </div>
+    
+    <div id="main">
+      <button  style =" margin-top: 5px;"  class="openbtn" onclick="openNav()">&#9776; Dashboard</button>
+    </div>
+  
+
+    <div class="container" style="margin-left: 300px;">
+      <div class="demo">
+        <div>
+            <h1><b>Team Members</b></h1>
+            <br><br>
+            <div>
+                <h2> Teams Names</h2>
+                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia temporibus molestias hic cupiditate labore repellendus ab corporis pariatur magni!</p>  -->
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, molestias! </p>
+
+            </div>
+            <div>
+              <h2> Teams Names</h2>
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia temporibus molestias hic cupiditate labore repellendus ab corporis pariatur magni!</p>  -->
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, molestias! </p>
+
+          </div>
+          <div>
+            <h2> Teams Names</h2>
+            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia temporibus molestias hic cupiditate labore repellendus ab corporis pariatur magni!</p>  -->
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, molestias! </p>
+
+        </div>
+        <div>
+          <h2> Teams Names</h2>
+          <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia temporibus molestias hic cupiditate labore repellendus ab corporis pariatur magni!</p>  -->
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, molestias! </p>
+
+      </div>
+      <div>
+        <h2> Teams Names</h2>
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia temporibus molestias hic cupiditate labore repellendus ab corporis pariatur magni!</p>  -->
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, molestias! </p>
+
+    </div>
+            
+            
+        </div>
+        </div>
+      </div>
+
+      <script> 
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("mySidebar").style.height = "670px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        } 
+        
+        </script> 
+
+        
+
+    
+  </body>
+</html>
