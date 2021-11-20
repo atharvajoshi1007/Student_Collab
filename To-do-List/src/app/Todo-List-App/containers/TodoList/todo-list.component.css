@@ -1,0 +1,101 @@
+.main{
+    width: 100%;
+    background-color:	#9cb1a033;
+}
+
+.completed{
+    text-decoration-line: line-through;
+}
+
+h1{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.addInput{
+    max-width: 500px;
+    line-height: 2em;
+    margin: 10px;
+}
+
+ul > li{
+    display: grid;
+    grid-template-columns: .5fr 2.5fr .5fr .5fr;
+}
+
+li > *{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listBtn{
+    max-width: 80px;
+    margin: 2px;
+}
+
+
+
+.main{
+    max-width: 50%;
+    box-shadow: 8px 6px#858181;
+    border-radius: 20px;
+    padding: 0;
+    min-height: 350px;
+    min-width: 400px;
+}
+
+.header, .inputDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    /* background-color:#000000; */
+    display: block;
+    /* color: white; */
+    line-height: 3em;
+    font-size: 16px;
+    padding-left: 1.5em;
+    margin-top: 1em;
+}
+
+.main-container{
+    margin: 2%;
+}
+
+.main{
+    margin-top: 5em;
+}
+
+li{
+    background-color:	#ffffff85;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 2rem;
+    line-height: 1.5em;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.selectall{
+    margin-top: -30px;
+}
+
+.dateClass{
+    font-size: 1em;
+    float: right;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px;
+    border-radius: 20px;
+    /* visibility: hidden; */
+}
+
+
+
