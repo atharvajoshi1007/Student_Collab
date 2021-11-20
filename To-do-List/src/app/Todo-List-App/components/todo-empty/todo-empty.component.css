@@ -1,0 +1,13 @@
+h5{
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.img-div, h5{
+    display: flex;
+    justify-content: center;
+}
+
+.img-div img{
+    max-width: 10em;
+}
